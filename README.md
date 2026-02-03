@@ -34,35 +34,6 @@ We evaluate these methods on MNIST (MLP architectures) and CIFAR-10 (CNN archite
 | FitNet | 2111 | 78.89% | 83K | 0.347 |
 | RKD | 2101 | 78.99% | 1.1M | 0.311 |
 
-**Key Findings:**
-- RKD performs best on complex tasks (CIFAR-10)
-- FitNet achieves exceptional compression (55× on CIFAR-10)
-- Architectural modifications (BatchNorm + Residual) significantly benefit RKD on MNIST (p=0.0099)
-
-## Repository Structure
-
-```
-KD-comparative-study/
-├── models/                    # Network architectures
-│   ├── mnist_models.py       # MLP models for MNIST
-│   └── cifar_models.py       # CNN models for CIFAR-10
-├── distillation/             # Distillation methods
-│   ├── vanilla_kd.py         # Hinton's KD
-│   ├── fitnet.py             # FitNets two-stage training
-│   └── rkd.py                # Relational KD
-├── experiments/              # Experiment runners
-│   ├── train_mnist.py        # MNIST baseline experiments
-│   ├── train_mnist_modified.py  # MNIST with BN+Residual
-│   └── train_cifar10.py      # CIFAR-10 experiments
-├── utils/                    # Utilities
-│   ├── training.py           # Training functions
-│   ├── evaluation.py         # Evaluation metrics
-│   └── mcnemar.py            # McNemar's statistical test
-├── results/                  # Experiment results
-├── figures/                  # Generated plots
-└── paper/                    # Research paper
-```
-
 ## Installation
 
 ### Requirements
