@@ -1,7 +1,7 @@
 # A Comparative Study of Knowledge Distillation Methods
 
 **By:** Yaron Otmazgin & Yael Levy  
-**Course:** Advanced Computational Learning (52025)
+
 
 ## Overview
 
