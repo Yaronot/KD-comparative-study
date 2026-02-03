@@ -49,7 +49,7 @@ We evaluate these methods on MNIST (MLP architectures) and CIFAR-10 (CNN archite
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/KD-comparative-study.git
+git clone https://github.com/Yaronot/KD-comparative-study.git
 cd KD-comparative-study
 
 # Install dependencies
