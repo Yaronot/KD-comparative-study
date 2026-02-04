@@ -18,11 +18,11 @@ We evaluate these methods on MNIST (MLP architectures) and CIFAR-10 (CNN archite
 
 | Model | Errors | Accuracy | Params | Latency (ms) |
 |-------|--------|----------|--------|--------------|
-| Teacher | 105 | 98.95% | 2.4M | 0.216 ± 0.062 |
-| Student Normal | 123 | 98.77% | 1.3M | 0.167 ± 0.020 |
-| Vanilla KD | 115 | 98.85% | 1.3M | 0.174 ± 0.023 |
-| FitNet | 117 | 98.83% | 509K | 0.263 ± 0.027 |
-| RKD | 118 | 98.82% | 1.3M | 0.154 ± 0.002 |
+| Teacher | 105 | 98.95% | 2.4M | 0.216  |
+| Student Normal | 123 | 98.77% | 1.3M | 0.167  |
+| Vanilla KD | 115 | 98.85% | 1.3M | 0.174  |
+| FitNet | 117 | 98.83% | 509K | 0.263  |
+| RKD | 118 | 98.82% | 1.3M | 0.154  |
 
 ### CIFAR-10 Results (CNN)
 
